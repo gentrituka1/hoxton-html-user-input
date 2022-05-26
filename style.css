@@ -52,14 +52,17 @@ h1{
     width: 100%;
     border-bottom: 1px solid pink;
     padding: 20px 0px;
+    
 }
 input, select{
     border: none;
     font-size: 16px;
+    outline: transparent;
 }
 textarea{
     border: none;
     font-size: 16px;
+    outline: transparent;
 }
 button{
     padding: 15px;
