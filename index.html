@@ -14,7 +14,7 @@
         </h1>
         <label class="labels">
             <p>What's your name?</p>
-            <input type="text" placeholder="Enter your name" required>
+            <input type="text" placeholder="Enter your name" required minlength="3" maxlength="20">
         </label>
         <label class="labels">
             <p>What's your email adress?</p>
@@ -22,7 +22,7 @@
         </label>
         <label class="labels">
             <p>What services are you looking for?</p>
-            <select>
+            <select required>
                 <option value="">Choose a service</option>
                 <option>Convergence</option>
                 <option>Concentration</option>
@@ -30,7 +30,7 @@
         </label>
         <label class="labels">
             <p>What is your budget?</p>
-            <select>
+            <select required>
                 <option value="">Select budget</option>
                 <option>200$</option>
                 <option>250$</option>
@@ -45,7 +45,7 @@
             <span>I agree with the T&Cs.<span>
                 <input type="checkbox" required>     
         </label>
-            <button >
+            <button href="/page-2/thank-you.html">
                 Submit ➡
             </button>
     </form>
